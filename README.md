@@ -58,24 +58,35 @@ The literature can be broadly grouped into:
 ### Legend
 
 - ✅ Official implementation
+- 🧩 Third-party implementation
+- 🚫 No public code
 
 
 ### Distribution-based methods
 
-- [DifferNet](https://arxiv.org/abs/2008.12577) — [Code](https://github.com/marco-rudolph/differnet)
-- [RegAD](https://arxiv.org/abs/2207.07361) — [Code](https://github.com/MediaBrain-SJTU/RegAD)
-- [Method Name](<PAPER_URL>) — No public code
+- [DifferNet](https://arxiv.org/abs/2008.12577) — ✅[Code](https://github.com/marco-rudolph/differnet)
+- [TDG](https://openaccess.thecvf.com/content/ICCV2021/html/Sheynin_A_Hierarchical_Transformation-Discriminating_Generative_Model_for_Few_Shot_Anomaly_Detection_ICCV_2021_paper.html) — 🚫
+- [RegAD](https://arxiv.org/abs/2207.07361) — ✅[Code](https://github.com/MediaBrain-SJTU/RegAD)
+- [PDD](https://link.springer.com/chapter/10.1007/978-3-031-26387-3_17) — ✅[Code](https://github.com/ProtoDD/pdd)
+- [COFT-AD](https://ieeexplore.ieee.org/abstract/document/10471293) — 🚫
 
 ### Reconstruction--based methods
 
-- [Method Name](<PAPER_URL>) — [Code](<CODE_URL>)
-- [Method Name](<PAPER_URL>) — [Code](<CODE_URL>)
-- [Method Name](<PAPER_URL>) — No public code
+- [Metaformer](https://openaccess.thecvf.com/content/ICCV2021/html/Wu_Learning_Unsupervised_Metaformer_for_Anomaly_Detection_ICCV_2021_paper.html) — 🚫
+- [Wang et al.](https://proceedings.neurips.cc/paper_files/paper/2022/hash/1fe6f635fe265292aba3987b5123ae3d-Abstract-Conference.html) — 🚫
+- [FastRecon](https://paperswithcode.com/paper/fastrecon-few-shot-industrial-anomaly) — ✅[Code](https://github.com/FzJun26th/FastRecon)
+- [MAEDAY](https://www.sciencedirect.com/science/article/abs/pii/S1077314224000390) — 🚫
+- [Li et al.](https://proceedings.neurips.cc/paper_files/paper/2024/hash/8f4477b086a9c97e30d1a0621ea6b2f5-Abstract-Conference.html) — 🚫
+- [INP-Former](https://paperswithcode.com/paper/fastrecon-few-shot-industrial-anomaly) — ✅[Code](https://github.com/luow23/INP-Former)
+- [INP-Former++](https://arxiv.org/pdf/2506.03660) — 🚫
+- [DictAS](https://www.arxiv.org/abs/2508.13560) — ✅[Code](https://github.com/xiaozhen228/DictAS)
 
 ### Distance--based methods
 
-- [Method Name](<PAPER_URL>) — [Code](<CODE_URL>)
-- [Method Name](<PAPER_URL>) — [Code](<CODE_URL>)
+- [SPADE](https://arxiv.org/abs/2005.02357) — 🚫
+- [PaDiM](https://link.springer.com/chapter/10.1007/978-3-030-68799-1_35) — 🚫
+- [PatchCore](https://arxiv.org/abs/2106.08265) — ✅[Code](https://github.com/amazon-science/patchcore-inspection)
+- [PatchCore](https://arxiv.org/abs/2106.08265) — ✅[Code](https://github.com/niamhbelton/FewSOME)
 
 ### VLM-based methods
 
@@ -97,11 +108,9 @@ The literature can be broadly grouped into:
 
 | Dataset | Modality | Domain | Annotation | Download |
 |---|---|---|---|---|
-| Dataset A | Image | Industrial | Image / pixel level | [Download](<DATASET_URL>) |
-| Dataset B | Image | Medical | Image level | [Download](<DATASET_URL>) |
-| Dataset C | Video | Surveillance | Frame level | [Download](<DATASET_URL>) |
-| Dataset D | Time series | Sensor | Point / interval level | [Download](<DATASET_URL>) |
-| Dataset E | Graph | Network | Node / edge level | [Download](<DATASET_URL>) |
+| MVTec AD | Image | Industrial | Image / pixel level | [Download](https://www.mvtec.com/company/research/datasets/mvtec-ad) |
+| VisA | Image | Industrial | Image / pixel level | [Download](https://github.com/amazon-science/spot-diff) |
+| BraTS | MRI | Medical | Image level | [Download](https://www.kaggle.com/datasets/dschettler8845/brats-2021-task1) |
 
 
 ---
