@@ -62,8 +62,8 @@ The literature can be broadly grouped into:
 
 ### Distribution-based methods
 
-- [Method Name]([<PAPER_URL>](https://arxiv.org/abs/2008.12577)) — [Code](https://github.com/marco-rudolph/differnet)
-- [Method Name](<PAPER_URL>) — [Code](<CODE_URL>)
+- [DifferNet](https://arxiv.org/abs/2008.12577) — [Code](https://github.com/marco-rudolph/differnet)
+- [RegAD](https://arxiv.org/abs/2207.07361) — [Code](https://github.com/MediaBrain-SJTU/RegAD)
 - [Method Name](<PAPER_URL>) — No public code
 
 ### Reconstruction--based methods
