@@ -4,8 +4,7 @@
 
 This repository accompanies our survey paper:
 
-**When Data Is Scarce: A Systematic Survey of Few-Shot Learning for Visual Anomaly Detection**  
-Shaoxiong Wang
+**When Data Is Scarce: A Systematic Survey of Few-Shot Learning for Visual Anomaly Detection** 
 
 
 ---
@@ -86,18 +85,28 @@ The literature can be broadly grouped into:
 - [SPADE](https://arxiv.org/abs/2005.02357) — 🚫
 - [PaDiM](https://link.springer.com/chapter/10.1007/978-3-030-68799-1_35) — 🚫
 - [PatchCore](https://arxiv.org/abs/2106.08265) — ✅[Code](https://github.com/amazon-science/patchcore-inspection)
-- [PatchCore](https://arxiv.org/abs/2106.08265) — ✅[Code](https://github.com/niamhbelton/FewSOME)
+- [FewSOME](https://arxiv.org/pdf/2301.06957.pdf) — ✅[Code](https://github.com/niamhbelton/FewSOME)
+- [GraphCore](https://arxiv.org/abs/2301.12082) — 🚫
+- [PCSNet](https://ieeexplore.ieee.org/abstract/document/10702559) — ✅[Code](https://github.com/yuxin-jiang/PCSNet)
+- [AnomalyDINO](https://arxiv.org/abs/2405.14529) — ✅[Code](https://github.com/dammsi/AnomalyDINO)
+- [CIF](https://arxiv.org/abs/2511.05966) — ✅[Code](https://github.com/Sunny5250/CIF)
 
 ### VLM-based methods
 
-- [Method Name](<PAPER_URL>) — [Code](<CODE_URL>)
-- [Method Name](<PAPER_URL>) — [Code](<CODE_URL>)
+- [GraphCore]() — ✅[Code]()
+- [WinCLIP](https://openaccess.thecvf.com/content/CVPR2023/papers/Jeong_WinCLIP_Zero-Few-Shot_Anomaly_Classification_and_Segmentation_CVPR_2023_paper.pdf) — 🧩[Code](https://github.com/mala-lab/WinCLIP)
+- [PromptAD](http://arxiv.org/abs/2404.05231) — ✅[Code](https://github.com/FuNz-0/PromptAD)
+- [AnomalyGPT](https://ojs.aaai.org/index.php/AAAI/article/view/27963)  — 🚫
+- [IIPAD](https://openreview.net/forum?id=Zzs3JwknAY) — ✅[Code](https://github.com/Vanssssry/One-For-All-Few-Shot-Anomaly-Detection)
+- [KAG-prompt](https://ojs.aaai.org/index.php/AAAI/article/view/32790) — ✅[Code](https://github.com/CVL-hub/KAG-prompt)
+- [AdaptCLIP](https://www.arxiv.org/pdf/2505.09926) — ✅[Code](https://github.com/gaobb/AdaptCLIP)
 
 ### Residual-based methods
 
-- [Method Name](<PAPER_URL>) — [Code](<CODE_URL>)
-- [Method Name](<PAPER_URL>) — [Code](<CODE_URL>)
-- [Method Name](<PAPER_URL>) — No public code
+- [InCTRL](https://arxiv.org/pdf/2403.06495.pdf) — ✅[Code](https://github.com/mala-lab/InCTRL)
+- [ResAD](https://arxiv.org/abs/2410.20047) — ✅[Code](https://github.com/xcyao00/ResAD)
+- [ResAD++](https://link.springer.com/article/10.1007/s11263-026-02885-1) — ✅[Code](https://github.com/xcyao00/ResAD)
+- [NAGL](https://proceedings.neurips.cc/paper_files/paper/2025/hash/5a437d77270d5588a84d63a851a3fdeb-Abstract-Conference.html) — ✅[Code](https://github.com/JasonKyng/NAGL)
 
 
 ---
@@ -110,6 +119,9 @@ The literature can be broadly grouped into:
 |---|---|---|---|---|
 | MVTec AD | Image | Industrial | Image / pixel level | [Download](https://www.mvtec.com/company/research/datasets/mvtec-ad) |
 | VisA | Image | Industrial | Image / pixel level | [Download](https://github.com/amazon-science/spot-diff) |
+| BTAD | Image | Industrial | Image / pixel level | [Download](http://avires.dimi.uniud.it/papers/btad/btad.zip) |
+| MVTec 3D  | Image | Industrial | Image / pixel level | [Download](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad) |
+| MPDD | Image | Industrial | Image / pixel level | [Download](https://github.com/stepanje/MPDD) |
 | BraTS | MRI | Medical | Image level | [Download](https://www.kaggle.com/datasets/dschettler8845/brats-2021-task1) |
 
 
