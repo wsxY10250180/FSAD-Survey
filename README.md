@@ -17,11 +17,10 @@ Few-shot anomaly detection focuses on identifying anomalous samples when only a 
 This repository aims to provide:
 
 - A structured list of representative papers
-- Links to official and third-party implementations
+- Links to official implementations
 - Download links for commonly used datasets
 - A simple taxonomy of existing methods
 - Benchmark and evaluation references
-- Updates, corrections, and newly published work
 
 > This repository only provides links to external resources. Please follow the original licenses and terms of use for all papers, codebases, datasets, and pretrained models.
 
@@ -33,7 +32,6 @@ This repository aims to provide:
 - [Papers and Code](#papers-and-code)
 - [Datasets](#datasets)
 - [Evaluation](#evaluation)
-- [Citation](#citation)
 - [License](#license)
 
 ---
@@ -64,7 +62,7 @@ The literature can be broadly grouped into:
 
 ### Distribution-based methods
 
-- [Method Name](<PAPER_URL>) — [Code](<CODE_URL>)
+- [Method Name]([<PAPER_URL>](https://arxiv.org/abs/2008.12577)) — [Code](https://github.com/marco-rudolph/differnet)
 - [Method Name](<PAPER_URL>) — [Code](<CODE_URL>)
 - [Method Name](<PAPER_URL>) — No public code
 
